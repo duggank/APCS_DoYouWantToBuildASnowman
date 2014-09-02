@@ -28,8 +28,12 @@ public class BasicJPanel extends JPanel{
       made visible or moved or whatever.
     */
     public void paintComponent(Graphics g){
-        g.drawLine(10,10,450,450); // Draw a line from (10,10) to (150,150)
-        g.drawOval(200, 200, 50, 50);
+        g.drawLine(180,210,100,165); //left arm
+        g.drawLine(280,210,360,165); //right arm
+        g.drawOval(200, 120, 50, 50); //head
+        g.drawOval(180, 170, 100, 100); //body
+        g.drawOval(160,268,150,150); //bottom
+        g.drawOval(); //this and the next line are the eyes
     }
 
     public static void main(String arg[]){
