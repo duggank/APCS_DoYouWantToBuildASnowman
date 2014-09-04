@@ -33,7 +33,8 @@ public class BasicJPanel extends JPanel{
         g.drawOval(200, 120, 50, 50); //head
         g.drawOval(180, 170, 100, 100); //body
         g.drawOval(160,268,150,150); //bottom
-        g.drawOval(); //this and the next line are the eyes
+        g.drawOval(218, 136, 15, 15); //this and the next line are the eyes
+        g.drawOval(220, 136, 15, 15);
     }
 
     public static void main(String arg[]){
